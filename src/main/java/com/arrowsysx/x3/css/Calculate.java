@@ -13,6 +13,7 @@ public class Calculate {
                 color = new CSSColor(base.getRed(), base.getGreen(), base.getBlue());
                 break;
             }
+            // funny code :)
             darker = darker.darker();
             color = new CSSColor(darker.getRed(), darker.getGreen(), darker.getBlue());
         }
