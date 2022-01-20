@@ -19,6 +19,6 @@ public class CSSColor {
 
     @Override
     public String toString() {
-        return r+","+g+","+b+";";
+        return "rgb("+r+","+g+","+b+");";
     }
 }

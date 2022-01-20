@@ -1,12 +1,13 @@
 package com.arrowsysx.x3;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Compile {
     public static final String compVersion = "JRE-1.0.0";
     public static final String cssVersion  =     "1.0.0";
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException, IOException {
         System.out.println("Welcome to the X3 Compiler version " + compVersion + "!");
         Scanner scanner = new Scanner(System.in);
         System.out.print("Compile? (Y/n): ");
@@ -19,7 +20,7 @@ public class Compile {
         }
     }
 
-    private static void compile() throws InterruptedException {
+    private static void compile() throws InterruptedException, IOException {
         Thread.sleep(950);
         System.out.println("\n---\n\nCompiling to ./dist/x3-v" + cssVersion + ".css...");
         Utils.compile();
