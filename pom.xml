@@ -9,11 +9,6 @@
     <version>JRE-1.0.0</version>
     <dependencies>
         <dependency>
-            <groupId>com.arrowsysx</groupId>
-            <artifactId>X3</artifactId>
-            <version>JRE-1.0.0</version>
-        </dependency>
-        <dependency>
             <groupId>org.jetbrains</groupId>
             <artifactId>annotations</artifactId>
             <version>RELEASE</version>
